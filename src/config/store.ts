@@ -9,5 +9,5 @@ export const STORE = {
   currency: 'INR',
   locale: 'en-IN',
   maxQuantityPerItem: 10,
-  cartStorageKey: 'utsav-tees-cart-v1',
+  cartStorageKey: 'tees-cart-v1',
 } as const;

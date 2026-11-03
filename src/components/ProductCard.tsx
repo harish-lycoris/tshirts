@@ -39,7 +39,10 @@ export default function ProductCard({ product, categories, onSelect }: ProductCa
           <p className="text-[11px] font-medium uppercase tracking-wider text-gold-deep">{primaryCategory.label}</p>
         )}
         <h3 className="font-display text-base font-semibold leading-snug text-ink sm:text-lg">{product.name}</h3>
-        <p className="mt-auto pt-2 text-base font-semibold text-ink">{formatPrice(product.price)}</p>
+        <div className="mt-auto pt-2">
+          <p className="text-base font-semibold text-ink">{product.price ? formatPrice(product.price) : 'Contact for Price'}</p>
+          <p className="text-[11px] font-medium text-gold-deep">Single Piece</p>
+        </div>
       </div>
     </button>
   );
