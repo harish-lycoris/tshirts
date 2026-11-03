@@ -16,7 +16,7 @@ export default function ProductCard({ product, categories, onSelect }: ProductCa
     <button
       type="button"
       onClick={() => onSelect(product.id)}
-      className="group flex h-full w-full flex-col overflow-hidden rounded-2xl border border-line/80 bg-paper text-left shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+      className="group flex h-full w-full flex-col overflow-hidden border border-line/80 bg-paper text-left shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-gold"
     >
       <div className="relative aspect-[4/5] overflow-hidden bg-gold-soft">
         <img
@@ -29,18 +29,18 @@ export default function ProductCard({ product, categories, onSelect }: ProductCa
           className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
         />
         {hasCombo && (
-          <span className="absolute left-3 top-3 rounded-full bg-ember px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-white shadow">
+          <span className="absolute left-2 top-2 rounded-full bg-ember px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white shadow">
             Combo
           </span>
         )}
       </div>
-      <div className="flex flex-1 flex-col gap-1.5 p-4">
+      <div className="flex flex-1 flex-col gap-1 p-3">
         {primaryCategory && (
-          <p className="text-[11px] font-medium uppercase tracking-wider text-gold-deep">{primaryCategory.label}</p>
+          <p className="text-[10px] font-medium uppercase tracking-wider text-gold-deep">{primaryCategory.label}</p>
         )}
-        <h3 className="font-display text-base font-semibold leading-snug text-ink sm:text-lg">{product.name}</h3>
-        <div className="mt-auto pt-2">
-          <p className="text-base font-semibold text-ink">{product.price ? formatPrice(product.price) : 'Contact for Price'}</p>
+        <h3 className="font-display text-[14px] font-semibold leading-tight text-ink sm:text-[15px]">{product.name}</h3>
+        <div className="mt-auto pt-1">
+          <p className="text-[15px] font-semibold text-ink sm:text-base">{product.price ? formatPrice(product.price) : 'Contact for Price'}</p>
           <p className="text-[11px] font-medium text-gold-deep">Single Piece</p>
         </div>
       </div>

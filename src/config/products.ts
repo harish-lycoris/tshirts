@@ -5,7 +5,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'acidwash-printed',
     name: 'Acid Wash Printed Tee',
-    price: 499,
+    price: 400,
     description: 'Bold printed design on acid-wash cotton.',
     images: ['/products/acidwash-front.png', '/products/acidwash-back.png'],
     categoryIds: ['printed', 'oversized'],
@@ -45,7 +45,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'dragon-black',
     name: 'Dragon Black Tee',
-    price: 549,
+    price: 350,
     description: 'Dragon graphic on black base.',
     images: ['/products/dragon-black-front.png', '/products/dragon-black-back.png'],
     categoryIds: ['printed', 'oversized'],
@@ -55,7 +55,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'dragon-white',
     name: 'Dragon White Tee',
-    price: 549,
+    price: 350,
     description: 'Dragon graphic on white base.',
     images: ['/products/dragon-white-front.png', '/products/dragon-white-back.png'],
     categoryIds: ['printed', 'oversized'],
@@ -65,7 +65,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'eagle-acid',
     name: 'Eagle Acid Wash Tee',
-    price: 499,
+    price: 400,
     description: 'Eagle print on acid-wash fabric.',
     images: ['/products/eagle-front.png', '/products/eagle-back.png'],
     categoryIds: ['printed', 'oversized'],
@@ -75,7 +75,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'ex-mix',
     name: 'Ex-Mix Tee',
-    price: 399,
+    price: 300,
     description: 'Mixed graphic design tee.',
     images: ['/products/ex-mix-front.png', '/products/ex-mix-back.png'],
     categoryIds: ['printed', 'regular-fit'],
@@ -85,7 +85,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'ferrari-tee',
     name: 'Ferrari Tee',
-    price: 399,
+    price: 300,
     description: 'Ferrari branded tee.',
     images: ['/products/ferrari-front.jpeg', '/products/ferrari-back.jpeg'],
     categoryIds: ['printed', 'regular-fit'],
@@ -95,7 +95,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'ironman',
     name: 'Iron Man Tee',
-    price: 549,
+    price: 300,
     description: 'Iron Man graphic tee.',
     images: ['/products/ironman-front.jpeg', '/products/ironman-back.jpeg'],
     categoryIds: ['printed', 'oversized'],
@@ -105,7 +105,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'naruto',
     name: 'Naruto Tee',
-    price: 499,
+    price: 400,
     description: 'Naruto character print.',
     images: ['/products/naruto-front.png', '/products/naruto-back.png'],
     categoryIds: ['printed', 'oversized'],
@@ -115,7 +115,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'porsche',
     name: 'Porsche Tee',
-    price: 499,
+    price: 350,
     description: 'Porsche branded tee.',
     images: ['/products/porsche-front.png', '/products/porsche-back.png'],
     categoryIds: ['printed', 'regular-fit'],

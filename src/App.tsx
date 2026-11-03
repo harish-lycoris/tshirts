@@ -35,9 +35,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen">
-      <div className="bg-maroon px-4 py-2 text-center text-xs font-medium tracking-wide text-marigold sm:text-sm">
-        {STORE.saleBanner}
-      </div>
       <Header itemCount={totals.itemCount} onOpenCart={() => setCartOpen(true)} />
 
       <main className="mx-auto max-w-7xl space-y-8 px-4 pb-28 pt-8 sm:px-6 sm:pt-10 lg:px-8">
