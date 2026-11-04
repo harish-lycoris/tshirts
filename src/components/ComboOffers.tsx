@@ -1,10 +1,10 @@
 export default function ComboOffers() {
   const ads = [
-    '/products/acid-wash-combo-ad-front.png',
-    '/products/collar-combo-ad.png',
-    '/products/dragon-combo-ad.png',
-    '/products/eagle-combo-ad.png',
-    '/products/naruto-combo-ad-back.png',
+    '/products/acid-wash-combo-ad-front.webp',
+    '/products/collar-combo-ad.webp',
+    '/products/dragon-combo-ad.webp',
+    '/products/eagle-combo-ad.webp',
+    '/products/naruto-combo-ad-back.webp',
   ];
   return (
     <section aria-label="Combo Offers">
